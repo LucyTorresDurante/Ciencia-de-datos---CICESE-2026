@@ -1,0 +1,18 @@
+{
+  "modelo": "citiusLTL/DisorBERT",
+  "modo": "depresion+trans",
+  "lex_dep": "3f480ee942a1",
+  "lex_trans": "868fc3d04ada",
+  "mlm_prob": 0.2,
+  "p_dep": 1.0,
+  "p_trans": 0.7,
+  "max_mascara": 0.4,
+  "max_len": 256,
+  "max_docs": null,
+  "min_chars": 120,
+  "dev": 0.005,
+  "seed": 42,
+  "lr": 3e-05,
+  "lote_efectivo": 64,
+  "excluir_autores": true
+}

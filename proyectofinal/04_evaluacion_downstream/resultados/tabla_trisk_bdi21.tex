@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Transferencia cero-shot de los 21 síntomas BDI-II en gold\_bdi21.csv.}
+\label{tab:trisk_bdi21}
+\begin{tabular}{lrrrrr}
+\toprule
+Modelo & N & Macro F1 & Micro F1 & Macro PR-AUC & Macro ROC-AUC \\
+\midrule
+DisorBERT\_base & 180 & 0.091 & 0.083 & 0.183 & 0.573 \\
+depresion+trans & 180 & 0.054 & 0.058 & 0.207 & 0.637 \\
+depresion+trans\_pdep50\_autor & 180 & 0.054 & 0.057 & 0.199 & 0.618 \\
+ninguno\_autor & 180 & 0.085 & 0.105 & 0.202 & 0.602 \\
+\bottomrule
+\end{tabular}
+\end{table}

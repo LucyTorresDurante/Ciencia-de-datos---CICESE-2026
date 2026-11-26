@@ -1,0 +1,35 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+bloques_cache_*/
+.pytest_cache/
+*.tmp
+
+# Datos pesados, sensibles y modelos binarios (no subir a GitHub)
+*.parquet
+*.zst
+*.jsonl
+01_datos_reddit/datos/eRisk_2024_dataset_majority.csv
+02_dataset_gold/datos/gold_1400.csv
+02_dataset_gold/datos/gold_bdi21.csv
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+modelo_final/
+
+# Logs y ejecutables
+*.log
+*.pid
+*.exe
+
+# Secretos y entorno local
+.env
+.env.*
+*.key

@@ -1,0 +1,220 @@
+{
+  "macro_f1": 0.8877305038261153,
+  "micro_f1": 0.8919514884233738,
+  "macro_pr_auc": 0.9518144007642158,
+  "macro_roc_auc": 0.9649953561105656,
+  "por_sintoma": [
+    {
+      "num": 1,
+      "sintoma": "Sadness",
+      "sintoma_es": "Tristeza",
+      "n_eval": 96,
+      "n_pos": 56,
+      "f1": 0.9122807017543859,
+      "pr_auc": 0.9680878394749166,
+      "roc_auc": 0.9582589285714286
+    },
+    {
+      "num": 2,
+      "sintoma": "Pessimism",
+      "sintoma_es": "Pesimismo",
+      "n_eval": 91,
+      "n_pos": 43,
+      "f1": 0.8571428571428571,
+      "pr_auc": 0.9193690000034883,
+      "roc_auc": 0.9241763565891473
+    },
+    {
+      "num": 3,
+      "sintoma": "Past Failure",
+      "sintoma_es": "Fracaso pasado",
+      "n_eval": 97,
+      "n_pos": 29,
+      "f1": 0.8771929824561403,
+      "pr_auc": 0.9340876759406157,
+      "roc_auc": 0.9731237322515213
+    },
+    {
+      "num": 4,
+      "sintoma": "Loss of Pleasure",
+      "sintoma_es": "Pérdida de placer",
+      "n_eval": 94,
+      "n_pos": 25,
+      "f1": 0.8333333333333334,
+      "pr_auc": 0.9051309499828479,
+      "roc_auc": 0.9382608695652175
+    },
+    {
+      "num": 5,
+      "sintoma": "Guilty Feelings",
+      "sintoma_es": "Sentimientos de culpa",
+      "n_eval": 110,
+      "n_pos": 56,
+      "f1": 0.9043478260869565,
+      "pr_auc": 0.9595979746157667,
+      "roc_auc": 0.9616402116402116
+    },
+    {
+      "num": 6,
+      "sintoma": "Punishment Feelings",
+      "sintoma_es": "Sentimientos de castigo",
+      "n_eval": 107,
+      "n_pos": 29,
+      "f1": 0.8253968253968254,
+      "pr_auc": 0.8644634054395722,
+      "roc_auc": 0.9363395225464191
+    },
+    {
+      "num": 7,
+      "sintoma": "Self-Dislike",
+      "sintoma_es": "Rechazo hacia sí mismo",
+      "n_eval": 92,
+      "n_pos": 47,
+      "f1": 0.9387755102040817,
+      "pr_auc": 0.9942141421107079,
+      "roc_auc": 0.9933806146572104
+    },
+    {
+      "num": 8,
+      "sintoma": "Self-Criticalness",
+      "sintoma_es": "Autocrítica",
+      "n_eval": 103,
+      "n_pos": 42,
+      "f1": 0.9302325581395349,
+      "pr_auc": 0.937452517574399,
+      "roc_auc": 0.9693598750975801
+    },
+    {
+      "num": 9,
+      "sintoma": "Suicidal Thoughts or Wishes",
+      "sintoma_es": "Pensamientos suicidas",
+      "n_eval": 87,
+      "n_pos": 52,
+      "f1": 0.9423076923076923,
+      "pr_auc": 0.9927792115292116,
+      "roc_auc": 0.9873626373626374
+    },
+    {
+      "num": 10,
+      "sintoma": "Crying",
+      "sintoma_es": "Llanto",
+      "n_eval": 81,
+      "n_pos": 34,
+      "f1": 0.8285714285714286,
+      "pr_auc": 0.916435817563741,
+      "roc_auc": 0.9311639549436797
+    },
+    {
+      "num": 11,
+      "sintoma": "Agitation",
+      "sintoma_es": "Agitación",
+      "n_eval": 115,
+      "n_pos": 66,
+      "f1": 0.9078014184397163,
+      "pr_auc": 0.9587437436866867,
+      "roc_auc": 0.9517625231910947
+    },
+    {
+      "num": 12,
+      "sintoma": "Loss of Interest",
+      "sintoma_es": "Pérdida de interés",
+      "n_eval": 94,
+      "n_pos": 28,
+      "f1": 0.9310344827586207,
+      "pr_auc": 0.9861473949905627,
+      "roc_auc": 0.9943181818181818
+    },
+    {
+      "num": 13,
+      "sintoma": "Indecisiveness",
+      "sintoma_es": "Indecisión",
+      "n_eval": 96,
+      "n_pos": 34,
+      "f1": 0.8181818181818182,
+      "pr_auc": 0.9034049288660195,
+      "roc_auc": 0.9539848197343453
+    },
+    {
+      "num": 14,
+      "sintoma": "Worthlessness",
+      "sintoma_es": "Inutilidad o falta de valor",
+      "n_eval": 69,
+      "n_pos": 28,
+      "f1": 0.8928571428571429,
+      "pr_auc": 0.9845542666454791,
+      "roc_auc": 0.9878048780487806
+    },
+    {
+      "num": 15,
+      "sintoma": "Loss of Energy",
+      "sintoma_es": "Pérdida de energía",
+      "n_eval": 97,
+      "n_pos": 39,
+      "f1": 0.9024390243902439,
+      "pr_auc": 0.9493081906573573,
+      "roc_auc": 0.9650751547303271
+    },
+    {
+      "num": 16,
+      "sintoma": "Changes in Sleeping Pattern",
+      "sintoma_es": "Cambios en el sueño",
+      "n_eval": 122,
+      "n_pos": 56,
+      "f1": 0.8596491228070176,
+      "pr_auc": 0.9387633194642125,
+      "roc_auc": 0.9454816017316017
+    },
+    {
+      "num": 17,
+      "sintoma": "Irritability",
+      "sintoma_es": "Irritabilidad",
+      "n_eval": 108,
+      "n_pos": 43,
+      "f1": 0.8636363636363636,
+      "pr_auc": 0.9681620981345455,
+      "roc_auc": 0.9735241502683363
+    },
+    {
+      "num": 18,
+      "sintoma": "Changes in Appetite",
+      "sintoma_es": "Cambios en el apetito",
+      "n_eval": 105,
+      "n_pos": 48,
+      "f1": 0.92,
+      "pr_auc": 0.9849368960440259,
+      "roc_auc": 0.9862938596491228
+    },
+    {
+      "num": 19,
+      "sintoma": "Concentration Difficulty",
+      "sintoma_es": "Dificultad de concentración",
+      "n_eval": 65,
+      "n_pos": 31,
+      "f1": 0.9230769230769231,
+      "pr_auc": 0.9917013527575442,
+      "roc_auc": 0.9905123339658445
+    },
+    {
+      "num": 20,
+      "sintoma": "Tiredness or Fatigue",
+      "sintoma_es": "Cansancio o fatiga",
+      "n_eval": 104,
+      "n_pos": 50,
+      "f1": 0.8990825688073395,
+      "pr_auc": 0.9639216358980822,
+      "roc_auc": 0.9655555555555556
+    },
+    {
+      "num": 21,
+      "sintoma": "Loss of Interest in Sex",
+      "sintoma_es": "Pérdida de interés en el sexo",
+      "n_eval": 133,
+      "n_pos": 51,
+      "f1": 0.875,
+      "pr_auc": 0.966840054668747,
+      "roc_auc": 0.9775227164036346
+    }
+  ],
+  "modelo": "depresion+trans_pdep50_autor",
+  "segundos": 331.6
+}
